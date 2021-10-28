@@ -1,10 +1,10 @@
-Particle[] stars;
+Particle[] stars; // declaring array
 
 void setup(){
   size(400,400);
-  stars = new Particle[100];
+  stars = new Particle[100]; //initializing array
   for(int i = 0; i < stars.length; i++)
-    stars[i] = new Particle();
+    stars[i] = new Particle(); //initializing the elements
 }
 
 void draw(){
