@@ -3,7 +3,7 @@ Clouds[] c;
 void setup(){
   size(300,300);
   c = new Clouds[100];
-  for(int i = 0; i < c.length; i++){
+  for(int i = 0; i < 10; i++){
    c[i] = new StormCloud(); 
   }
   for(int i=0; i<c.length; i++){
