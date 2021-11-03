@@ -26,8 +26,8 @@ class Particle {
   } // end constructor
  
   void move(){
-   myX = myX + mySpeed + myAngle;
-   myY = myY + mySpeed + myAngle; //Math.sin(2.03) * 8.25;
+   myX = myX + mySpeed * Math.cos(myAngle);
+    myY = myY + mySpeed * Math.sin(myAngle);
   } // end move
  
   void show(){
