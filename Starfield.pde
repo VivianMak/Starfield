@@ -29,7 +29,7 @@ void setup()
   
   
   // initialize array part
-  dragonParticles = new Particle [100];
+  dragonParticles = new Particle [150];
   for(int i = 0; i < 5; i++)
   {dragonParticles[i] = new Oddball();}
   for(int i = 5; i < dragonParticles.length; i++)
