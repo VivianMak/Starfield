@@ -79,7 +79,8 @@ void draw()
     }
   }
   if(score <= 0){
-      background(225);
+      background(0);
+      textSize(30);
       text("MC End Poem", 200, 35);
       image(endPoem1, 0,45, width, height/2);
       image(endPoem2, 0,340, width, height/2);
