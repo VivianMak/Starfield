@@ -82,8 +82,8 @@ void draw()
       background(0);
       textSize(30);
       text("MC End Poem", 200, 35);
-      image(endPoem1, 0,45, width, height/2);
-      image(endPoem2, 0,340, width, height/2);
+      image(endPoem1, 0,35, width, height/2);
+      image(endPoem2, 0,335, width, height/2);
       
 
       // then display end poem
